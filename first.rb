@@ -6,5 +6,14 @@ end
 
 mult
 
-print("Hello world!")
-print("Hello world!")
+def input_number()
+    a = gets.chomp.to_i
+
+    if a > 10
+        return 'hello'
+    else 
+        return 'world'
+    end
+end
+
+puts(input_number)
