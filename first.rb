@@ -5,3 +5,5 @@ def mult()
 end
 
 mult
+
+print("Hello world!")
